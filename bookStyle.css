@@ -1,0 +1,181 @@
+body {
+  background-color: rgb(239, 228, 207);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+img {
+  border: 0.5px solid black;
+}
+#theHead {
+  width: 1400px;
+  height: 80px;
+  border: 2px solid;
+  border-radius: 10px;
+  color: rgb(137 168 181);
+  margin-bottom: 10px;
+}
+#webName {
+  color: rgb(126 77 114);
+  top: -75px;
+  left: 90px;
+  position: relative;
+  font-size: 18px;
+}
+#logo {
+  width: 80px;
+  height: 80px;
+  border: none;
+}
+#p1,
+#p2,
+#p3 {
+  color: green;
+  font-weight: bold;
+}
+#p2 {
+  color: gray;
+}
+#p3 {
+  color: rgb(126 77 114);
+}
+#about {
+  font-size: 18px;
+
+  font-style: italic;
+}
+button {
+  font-size: 14px;
+}
+#form {
+  background-color: #7e4d724a;
+  width: 700px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 400px;
+  right: 500px;
+}
+
+#form input {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 175px;
+  padding: 5px 90px 7px 14px; /*top-right-bottom-left*/
+  background-color: rgba(247, 235, 213, 0.703);
+}
+#form input,
+#searchB,
+#wishB,
+#signB,
+#homeB,
+.container .add,
+.recs .add {
+  border-color: wheat;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#searchB,
+#wishB,
+#signB,
+#homeB,
+.container .add,
+.recs .add {
+  margin-left: 7px;
+  background-color: wheat;
+  color: rgb(126 77 114);
+}
+.recs .add {
+  margin-left: 30px;
+}
+#wishB,
+#signB,
+#homeB {
+  position: absolute;
+  top: 10px;
+  padding: 2px;
+}
+#wishB {
+  left: 1225px;
+}
+#signB {
+  left: 1300px;
+}
+#homeB {
+  left: 1160px;
+}
+.container {
+  margin-top: -60px;
+  margin-left: 70px;
+}
+.container .bookD {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.container img {
+  border: 0.5px solid black;
+  margin-top: 112px;
+}
+.container button {
+  position: absolute;
+  top: 565px;
+  left: 105px;
+  padding: 5px 60px 5px 60px;
+}
+
+.bookD {
+  position: absolute;
+  top: 50px;
+  left: 340px;
+}
+.bookD h1 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+table {
+  margin-left: 50px;
+}
+table,
+td,
+th {
+  border: 2px solid rgb(199, 148, 80);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.recs h1 {
+  color: rgb(101, 101, 101);
+  font-size: 30px;
+  position: absolute;
+  top: 110px;
+  right: 118px;
+  text-decoration: underline;
+  font-style: italic;
+}
+#r1,
+#r2 {
+  position: absolute;
+  top: 220px;
+}
+#r3,
+#r4 {
+  position: absolute;
+  top: 500px;
+}
+#r1,
+#r3 {
+  right: 290px;
+}
+#r2,
+#r4 {
+  right: 50px;
+}
+.recs img {
+  width: 150px;
+  height: 220px;
+}

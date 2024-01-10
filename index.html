@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head><title>Home Page</title>
+<link href="homeStyle.css" rel="stylesheet">
+<script>
+function display()
+{
+window.alert("The item has been successfully added to the wishlist");
+ }
+ function display2(){
+  window.alert("The item has been successfully added to the cart");
+ }
+</script>
+</head>
+<body>
+   
+    <div id="theHead">
+        <img id ="logo" src="images/logo.png.png">
+<h1 id="webName">The House<br /> of Books</h1>
+
+</div>
+<form id="form"> 
+    <input type="text" id="query" name="q" placeholder="search any book ...">
+    <button style="font-size:16px ;"id="searchB">🔎</button>
+  </form>
+  <button id="wishB">Wishlist❤️</button>
+  <a target="_blank" href="form.html">
+  <button id="signB">👤Sign in/Join</button></a>
+  <button id="cartB">🛒Cart</button></a>
+  
+<p id="welcome"><br />From bestsellers to new <br/>& future releases<br /></p>
+<p class="description">the choices are exhaustive<br /> when you shop online at <span class="italic">The House of Books<span>.</p>
+  <div class="list">
+    <ul>
+      <button>Bestsellers</button>
+      
+      <button>Coming Soon</button>
+      
+      <button>Books</button>
+     
+      <button>Mangas</button>
+      
+      <button>Magazaines</button>
+
+    </ul>
+  </div>
+  <hr/>
+    <br />
+    
+    <div class="container"><!--Opening contianer--> 
+    <div>
+      <a target="_blank" href="book1.html">
+        <img id="pic1" src="images/book1-theLittileTeashop.jpg" alt="">
+      </a>
+      <div id="pic1d"><span class="Btitle">The Little Teashop in <br/>Tokyo.</span><br />
+        
+        <span class="author">Julie Caplin</span>
+        <br/>
+        <span class="price">SAR 65.59</span>
+        <br />
+        <button class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button>
+      </div>
+    </div>
+
+    <div>
+      <a target="_blank" href="images/book2-theKeeper.jpg">
+        <img id="pic2" src="images/book2-theKeeper.jpg" alt="">
+      </a>
+      <div id="pic2d"><span class="Btitle">The Keeper of Stories</span><br />
+        <span class="author">Sally Page</span>
+        <br/>
+        <span class="price">SAR 75.01</span>
+        <br />
+        <button  class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button>
+      </div>
+    </div>
+    <div >
+      <a target="_blank" href="images/book3-whatKity.jpg">
+        <img  id="pic3" src="images/book3-whatKity.jpg" alt="">
+      </a>
+      <div id="pic3d"><span class="Btitle">What Kate Did</span><br />
+        <span class="author">Susan Coolidge</span>
+        <br/>
+        <span class="price">SAR 67.09</span>
+        <br />
+        <button  class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button>
+      </div>
+        
+    </div>
+    <div >
+      <a target="_blank" href="book2.html">
+        <img id="pic4" src="images/book4-dune.jpg "alt="">
+      </a>
+      <div id="pic4d"><span class="Btitle">Dune</span><br />
+        <span class="author">Frank Herbert</span>
+        <br/>
+        <span class="price">SAR 81.43</span>
+        <br />
+        <button  class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button>
+      </div>
+    </div>
+    <div >
+      <a target="_blank" href="images/book5-thePenultimate.jpg">
+        <img id="pic5" src="images/book5-thePenultimate.jpg" alt="">
+      </a>
+      <div id="pic5d""><span class="Btitle">The Penultimate Truth</span><br />
+        <span class="author">Philip Dick</span>
+        <br/>
+        <span class="price">SAR 72.35</span> <br />
+        <button  class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button></div>
+    </div>
+
+    <div >
+      <a target="_blank" href="images/book6-theEyre.jpg">
+        <img id="pic6" src="images/book6-theEyre.jpg" alt="">
+      </a>
+      <div id="pic6d"><span class="Btitle">The Eyre Affair</span><br />
+        <span class="author">Jasper Fforde</span>
+        <br/>
+        <span class="price">SAR 79.02</span> <br />
+        <button  class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button></div>
+    </div>
+    <div >
+      <a target="_blank" href="images/book7-theMan.jpg">
+        <img id="pic7" src="images/book7-theMan.jpg" alt="">
+      </a>
+      <div id="pic7d"><span class="Btitle">The Man Within</span><br />
+        <span class="author">Graham Greene</span>
+        <br/>
+        <span class="price">SAR 66.65</span> <br />
+        <button  class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button></div>
+    </div>
+
+    <div >
+      <a target="_blank" href="images/book8-welcome.jpg">
+        <img id="pic8" src="images/book8-welcome.jpg" alt="">
+      </a>
+      <div id="pic8d"><span class="Btitle">Welcome To Rosie<br/> Hokins's Sweetshop<br /> Of Dreams</span><br />
+        <span class="author">Graham Greene</span>
+        <br/>
+        <span class="price">SAR 66.65</span> <br />
+        <button  class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button></div>
+    </div>
+    <div >
+      <a target="_blank" href="images/manga1-soloLeveling.jpg">
+        <img id="pic9" src="images/manga1-soloLeveling.jpg" alt="">
+      </a>
+      <div id="pic9d"><span class="Btitle">Solo Leveling(manga)</span><br />
+        <span class="author">Chugong</span>
+        <br/>
+        <span class="price">SAR 109.23</span> <br />
+        <button  class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button></div>
+    </div>
+    <div >
+      <a target="_blank" href="images/manga2-allYouNeed.jpg">
+        <img id="pic10" src="images/manga2-allYouNeed.jpg" alt="">
+      </a>
+      <div id="pic10d"><span class="Btitle">All you Need is <br/>Kill(manga)</span><br />
+        <span class="author">Ryosuke Takeuchi</span>
+        <br/>
+        <span class="price">SAR 85.39</span> <br />
+        <button  class="add" onclick="display2()">Add to Cart</button> 
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button></div>
+    </div>
+    <div >
+      <a target="_blank" href="images/magazaine1-martha.jpg">
+        <img id="pic11" src="images/magazaine1-martha.jpg" alt="">
+      </a>
+      <div id="pic11d"><span class="Btitle">Martha Stewart's<br /> Cookies</span><br />
+        <span class="author">Martha Stewart</span>
+        <br/>
+        <span class="price">SAR 195.2</span> <br />
+        <button  class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button></div>
+    </div>
+    <div >
+      <a target="_blank" href="images/magazaine2-O'sLittle.jpg">
+        <img id="pic12" src="images/magazaine2-O'sLittle.jpg" alt="">
+      </a>
+      <div id="pic12d"><span class="Btitle">O's Little Book of<br />Happiness.</span><br />
+        <span class="author">the Oprah Magazaine</span>
+        <br/>
+        <span class="price">SAR 83.36</span> <br />
+        <button  class="add" onclick="display2()">Add to Cart</button>
+        <button onclick="display()" style="background-color: #edc6e44a;;cursor: pointer;border-color: wheat;">❤️</button>
+      </div>
+    </div>
+  </div> <!--clsong contianer-->
+    
+</body>

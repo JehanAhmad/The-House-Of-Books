@@ -1,0 +1,268 @@
+body {
+  background-color: rgb(239, 228, 207);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+button {
+  font-size: 14px;
+}
+#theHead {
+  width: 1400px;
+  height: 80px;
+  border: 2px solid;
+  border-radius: 10px;
+  color: rgb(137 168 181);
+  margin-bottom: 10px;
+}
+#webName {
+  color: rgb(126 77 114);
+  top: -75px;
+  left: 90px;
+  position: relative;
+  font-size: 18px;
+}
+#logo {
+  width: 80px;
+  height: 80px;
+}
+#form {
+  background-color: #7e4d724a;
+  width: 700px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 400px;
+  right: 500px;
+}
+
+#form input {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 175px;
+  padding: 5px 90px 7px 14px; /*top-right-bottom-left*/
+  background-color: rgba(247, 235, 213, 0.703);
+}
+#form input,
+#searchB,
+#wishB,
+#signB,
+#homeB,
+#cartB,
+.list button {
+  border-color: wheat;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#searchB,
+#wishB,
+#signB,
+.list button,
+#cartB {
+  margin-left: 7px;
+  background-color: wheat;
+  color: rgb(126 77 114);
+}
+
+#wishB,
+#signB,
+#cartB {
+  padding: 2px;
+  position: absolute;
+  top: 10px;
+}
+#wishB {
+  left: 1210px;
+}
+#signB {
+  left: 1295px;
+}
+#cartB {
+  left: 1150px;
+}
+.list {
+  position: absolute;
+  top: 77px;
+  left: 360px;
+  right: 200px;
+}
+.list button {
+  padding: 10px 30px; /*top+bottom - right+left*/
+  text-align: center;
+  background-color: wheat;
+  color: rgb(126 77 114);
+}
+
+#welcome {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #c67676;
+  position: relative;
+  top: -6px;
+  left: 30px;
+}
+.description {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(137 168 181);
+  position: relative;
+  top: -25px;
+  left: 30px;
+}
+p .italic {
+  font-style: italic;
+  text-decoration: underline;
+}
+.container {
+  margin-left: 30px;
+}
+#pic1,
+#pic2,
+#pic3,
+#pic4,
+#pic5,
+#pic6 {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  top: 350px;
+  border: 0.5px solid black;
+}
+#pic1 {
+  left: 60px;
+}
+#pic1d {
+  position: absolute;
+  top: 550px;
+  left: 60px;
+}
+
+#pic2 {
+  left: 280px;
+}
+#pic2d {
+  position: absolute;
+  top: 550px;
+  left: 280px;
+}
+#pic3 {
+  left: 500px;
+}
+#pic3d {
+  position: absolute;
+  top: 550px;
+  left: 500px;
+}
+#pic4 {
+  left: 730px;
+}
+#pic4d {
+  position: absolute;
+  top: 550px;
+  left: 730px;
+}
+#pic5 {
+  left: 960px;
+}
+#pic5d {
+  position: absolute;
+  top: 550px;
+  left: 960px;
+}
+#pic6 {
+  left: 1190px;
+}
+#pic6d {
+  position: absolute;
+  top: 550px;
+  left: 1190px;
+}
+/*The Second Line*/
+/**************/
+#pic7,
+#pic8,
+#pic9,
+#pic10,
+#pic11,
+#pic12 {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  top: 670px;
+  left: 60px;
+  border: 0.5px solid black;
+}
+#pic7 {
+  left: 60px;
+}
+
+#pic7d {
+  position: absolute;
+  top: 870px;
+  left: 60px;
+}
+#pic8 {
+  left: 280px;
+}
+#pic8d {
+  position: absolute;
+  top: 870px;
+  left: 280px;
+}
+#pic9 {
+  left: 500px;
+}
+#pic9d {
+  position: absolute;
+  top: 870px;
+  left: 500px;
+}
+#pic10 {
+  left: 730px;
+}
+#pic10d {
+  position: absolute;
+  top: 870px;
+  left: 730px;
+}
+#pic11 {
+  left: 960px;
+}
+#pic11d {
+  position: absolute;
+  top: 870px;
+  left: 960px;
+}
+#pic12 {
+  left: 1190px;
+}
+#pic12d {
+  position: absolute;
+  top: 870px;
+  left: 1190px;
+}
+.Btitle {
+  font-size: 16px;
+}
+.author {
+  font: 12px;
+  text-decoration: underline;
+  color: gray;
+  font-weight: 200;
+}
+.price {
+  color: green;
+}
+.add {
+  border-color: wheat;
+  background-color: wheat;
+  color: rgb(126 77 114);
+  cursor: pointer;
+  border-radius: 6px;
+}

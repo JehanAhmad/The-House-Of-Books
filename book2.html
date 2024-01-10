@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dune</title>
+   <link rel="stylesheet" href="bookStyle.css" >
+   <script>
+    function display(){
+  window.alert("The item has been successfully added to the cart");
+ }
+   </script>
+  </head>
+
+  <body>
+    
+    <div id="theHead">
+      <img id ="logo" src="images/logo.png.png">
+<h1 id="webName">The House<br /> of Books</h1>
+
+</div>
+<form id="form" action="book1.html"> 
+  <input type="text" id="query" name="q" placeholder="search any book ...">
+  <button style="font-size:16px ;" id="searchB">🔎</button>
+</form>
+<button id="wishB">Wishlist❤️</button>
+<a target="_blank" href="form.html">
+<button id="signB">👤Sign in/Join</button></a>
+<a href="index.html"> <button id="homeB">🏠Home</button></a>
+    
+   
+    <div class="container">
+      <img src="images/book4-dune.jpg" />
+      <button class="add" onclick="display()">Add to Cart</button>
+
+      <div class="bookD">
+        <h1>Dune</h1>
+        <p id="p1">⭐⭐⭐⭐|4.25(1,083,717 ratings by <a target="_blank" href=https://www.goodreads.com/book/show/44767458-dune?from_search=true&from_srp=true&qid=r6kghXzJYa&rank=1>(Goodreads)</a></p>
+        <p id="p2">Paperback | Science Fiction | English</p>
+        <p id="p3">By (author) Frank Herbert</p>
+       
+        <p id="about">
+          Set on the desert planet Arrakis, Dune is the story of the boy<br />
+          Paul Atreides, heir to a noble family tasked with ruling an<br />turning
+          inhospitable world where the only thing of value is the “spice”<br />
+          melange, a drug capable of extending life and enhancing<br />
+          consciousness. Coveted across the known universe, melange is a<br /> prize worth killing for...
+          <br />
+          <br />
+          
+          When House Atreides is betrayed, the destruction of Paul’s,<br /> family will set the boy on a journey toward a destiny greater<br /> than he could ever have imagined. And as he evolves into the<br /> mysterious man known as Muad’Dib, he will bring to fruition<br /> humankind’s most ancient and unattainable dream.
+          <br />
+          <br />
+          <br/>
+          <br/>
+          <table><!--opening table-->
+            <thead>
+              <tr>
+                <th colspan="3">Book Details</th>
+              </tr>
+            </thead>
+      
+            <tr>
+              <th>Genre</th>
+              <td>Fantasy</td>
+            </tr>
+            <tr>
+              <th>publishing year</th>
+              <td>23 Jul 2015</td>
+            </tr>
+            <tr>
+              <th>Edition Language</th>
+              <td>English</td>
+            </tr>
+            
+          </table><!--closing table-->
+        </p>
+       
+      </div>
+    </div>
+    <div class="recs">
+      <h1>recommended for you:</h1>
+      <span id="r1">
+        <img src="images/book2rec1.jpg">
+        <br/>
+        <button  class="add" onclick="display()">Add to Cart</button>
+      </span>
+      <span id="r2">
+        <img src="images/book2rec2.jpg">
+        <br/>
+        <button  class="add" onclick="display()">Add to Cart</button>
+      </span>
+      <br/>
+      <span id="r3">
+        <img src="images/book2rec3.jpg">
+        <br/>
+        <button  class="add" onclick="display()">Add to Cart</button>
+      </span>
+      <span id="r4">
+      <img src="images/book2rec4.jpg">
+      <br/>
+      <button  class="add"  onclick="display()">Add to Cart</button>
+    </span>
+   
+    </div>
+  </body>
+</html>
